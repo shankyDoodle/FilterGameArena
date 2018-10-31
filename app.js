@@ -712,7 +712,7 @@ var oHeaderCellSortOptions = {
 };
 
 $(document).ready(function () {
-  $.ajax({
+  /*$.ajax({
     url: "http://starlord.hackerearth.com/gamesarena",
     success: function (aResult) {
       fillData(aResult);
@@ -722,7 +722,9 @@ $(document).ready(function () {
       var aData = aStaticMasterData;
       fillData(aData);
     }
-  });
+  });*/
+  var aData = aStaticMasterData;
+      fillData(aData);
 });
 
 var fillData = function (aResult) {
